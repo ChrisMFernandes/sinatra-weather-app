@@ -6,15 +6,25 @@ html{
   background-repeat: no-repeat;
 }
 
-.container{
+::placeholder{
+  color: white;
+}
+
+.main{
   color: white;
   padding-top: 25%;
 }
 
 #hero-input{
-  border: .1rem solid white;
+  border: .1rem solid orange;
+  color: white;
 }
 
 #hero-input:focus{
-  border-color: orange;
+  border-color: white;
+}
+
+#hero-button{
+  margin-left: 40%;
+  background-color: orange;
 }

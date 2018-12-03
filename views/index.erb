@@ -10,13 +10,13 @@
   <title>WeatherApp</title>
 </head>
 <body>
-  <section class="container small">
+  <section class="container small main">
     <form action="/" method="GET">
       <input id="hero-input" name="city" type="text" placeholder="Enter a City Name" required>
       <input id="hero-button" type="submit" value="Get Weather">
     </form>
 
-    <div class="row">
+    <div class="container small secondary">
       <% if !params.empty? %>
         <h1 id="display-text">It is <%= @data["main"]["temp"] %> degrees in <%= @data["name"] %></h1>
       <% end %>
