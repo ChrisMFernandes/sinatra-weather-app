@@ -1,0 +1,20 @@
+html{
+  min-height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/images/seattle.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container{
+  color: white;
+  padding-top: 25%;
+}
+
+#hero-input{
+  border: .1rem solid white;
+}
+
+#hero-input:focus{
+  border-color: orange;
+}
