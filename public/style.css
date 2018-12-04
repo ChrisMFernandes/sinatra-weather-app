@@ -1,5 +1,5 @@
 html{
-  min-height: 100%;
+  /* min-height: 100%; */
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/images/seattle.gif");
   background-size: cover;
   background-position: center;
@@ -15,6 +15,11 @@ html{
   padding-top: 25%;
 }
 
+.secondary{
+  position: relative;
+  bottom: -200px;
+}
+
 #hero-input{
   border: .1rem solid orange;
   color: white;
@@ -28,3 +33,4 @@ html{
   margin-left: 40%;
   background-color: orange;
 }
+
