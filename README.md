@@ -16,7 +16,7 @@ This application was built from a node.js tutorial that I did a little while bac
 
 # Deployment
 
-[Check out my application on GitHub pages!](https://stormy-fortress-60422.herokuapp.com/)
+[Check out my application on Heroku!](https://stormy-fortress-60422.herokuapp.com/)
 
 # Coming Soon
 
