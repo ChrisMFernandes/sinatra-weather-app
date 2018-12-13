@@ -6,13 +6,31 @@ html{
   background-repeat: no-repeat;
 }
 
+form{
+  padding-bottom: 3%;
+}
+
 ::placeholder{
   color: white;
 }
 
+
 .main{
   color: white;
-  padding-top: 25%;
+  margin-top: 15%;
+  background: rgba(0,0,0,0.5);
+  padding: 8%;
+  border-radius: 10px;
+}
+
+#title{
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 5%;
+}
+
+#display-text{
+  text-align: center;
 }
 
 #hero-input{

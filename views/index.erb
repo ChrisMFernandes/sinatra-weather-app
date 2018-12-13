@@ -7,25 +7,25 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i" rel="stylesheet">
   <link href="https://unpkg.com/lemoncss/dist/lemon.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <title>WeatherApp</title>
+  <title>WeatherTracker</title>
 </head>
 <body>
-  <section class="container small main">
-    <form action="/" method="GET">
-      <input id="hero-input" name="city" type="text" placeholder="Enter a City Name" required>
-      <input id="hero-button" type="submit" value="Get Weather">
-    </form>
+  <section class="container medium main">
+    <div class="main-content">
+      <h1 id="title">Weather Tracker</h1>
+      <form action="/" method="GET">
+        <input id="hero-input" name="city" type="text" placeholder="Enter a City Name" required>
+        <input id="hero-button" type="submit" value="Get Weather">
+      </form>
 
-    <div class="container small secondary">
-      
-        <h1 id="display-text">
-          <% if !params.empty? %>
-            It is <%= @data["main"]["temp"] %> degrees in <%= @data["name"] %>
-          <% end %>
-        </h1>
-
+      <div class="container small secondary">
+        <% if !params.empty? %>
+          <h1 id="display-text">It is <%= @data["main"]["temp"].round %> degrees in <%= @data["name"] %></h1>
+        <% end %>
+      </div>
     </div>
   </section>
+
   <script src="main.js"></script>
 </body>
 </html>
