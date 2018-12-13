@@ -17,9 +17,13 @@
     </form>
 
     <div class="container small secondary">
-      <% if !params.empty? %>
-        <h1 id="display-text">It is <%= @data["main"]["temp"] %> degrees in <%= @data["name"] %></h1>
-      <% end %>
+      
+        <h1 id="display-text">
+          <% if !params.empty? %>
+            It is <%= @data["main"]["temp"] %> degrees in <%= @data["name"] %>
+          <% end %>
+        </h1>
+
     </div>
   </section>
   <script src="main.js"></script>

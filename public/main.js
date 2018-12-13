@@ -1,9 +1,18 @@
 console.log('linked')
 
-let button = document.getElementById('hero-button');
+// let button = document.getElementById('hero-button');
 
-button.addEventListener('click', function() {
-  let text = document.getElementById('display-text');
+// function addAnimation(text){
+//   console.log('now im here')
+//   text.classList.add('animate');
+// }
 
-  console.log(text);
-})
+// button.addEventListener('click', function() {
+//   let text = document.getElementById('display-text');
+
+//   if(text) {
+//     console.log('im in here')
+//     setTimeout(addAnimation(text), 1000);
+//   }
+// })
+
